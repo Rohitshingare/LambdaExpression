@@ -11,6 +11,7 @@ public class BookDAO {
 		books.add(new Book(363, "Hibernate", 180));
 		books.add(new Book(275, "Spring", 200));
 		books.add(new Book(893, "WebService", 300));
+		books.add(new Book(893, "WebService", 300));
 		return books;
 	}
 }
