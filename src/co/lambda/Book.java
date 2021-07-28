@@ -4,7 +4,7 @@ public class Book {
 	private int id;
 	private String name;
 	private int pages;
-
+    
 	public int getId() {
 		return id;
 	}
@@ -67,11 +67,14 @@ public class Book {
 
 	public Book() {
 		super();
+		System.out.println("hey i am in default constructor");
 		// TODO Auto-generated constructor stub
 	}
 
 	public Book(int id, String name, int pages) {
+		
 		super();
+		System.out.println("hey i am in paramaterised constructor");
 		this.id = id;
 		this.name = name;
 		this.pages = pages;
